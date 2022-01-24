@@ -1,0 +1,108 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunshine's Webpage</title>
+
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body>
+    <!-- component -->
+<div class="w-full flex flex-row flex-wrap">
+  <div class="w-full bg-white h-screen flex flex-row flex-wrap justify-center ">
+    
+    <!-- Begin Navbar -->
+    
+    <div class="bg-white shadow-lg border-t-4 border-amber-200 absolute bottom-0 w-full md:w-0 md:hidden flex flex-row flex-wrap">
+      <div class="w-full text-right"><button class="p-2 fa fa-bars text-4xl text-gray-600"></button></div>
+    </div>
+    
+    <div class="w-0 md:w-1/4 lg:w-1/5 h-0 md:h-screen overflow-y-hidden bg-amber-50 shadow-lg">
+      <div class="p-5 bg-white sticky top-0">
+        <img class="border border-amber-200 shadow-lg round" src="images/sample_logo.png">
+        <div class="pt-2 border-t mt-5 w-full text-center text-xl text-gray-600 font-serif">
+          Susannah Gabrielle
+        </div>
+      </div>
+      <div class="w-full h-screen antialiased flex flex-col hover:cursor-pointer">
+        <a class="hover:bg-amber-500 bg-white border-t-2 p-3 w-full text-md text-left text-gray-600 font-serif" href="#About"><i class="fa fa-comment text-gray-600 text-2xl pr-1 pt-1 float-right"></i>About Me</a>
+        <a class="hover:bg-amber-500 bg-white border-t-2 p-3 w-full text-md text-left text-gray-600 font-serif" href="educ_background.html"><i class="fa fa-cog text-gray-600 text-2xl pr-1 pt-1 float-right"></i>Educational Background</a>
+        <a class="hover:bg-amber-500 bg-white border-t-2 p-3 w-full text-md text-left text-gray-600 font-serif" href="#More"><i class="fa fa-arrow-left text-gray-600 text-2xl pr-1 pt-1 float-right"></i>ano pa need</a>
+      </div>
+    </div>
+    
+    <!-- End Navbar -->
+    
+    <div class="w-full md:w-3/4 lg:w-4/5 p-5 md:px-12 lg:24 h-full overflow-x-scroll antialiased">
+        <div id="About" class="grid grid-cols-12 bg-white">
+            <div class="col-span-12 md:border-solid md:border-l md:border-black md:border-opacity-25 h-full pb-12 md:col-span-10">
+              <div class="px-4 pt-4">
+                <form action="#" class="flex flex-col space-y-8">
+        
+                  <div>
+                    <h3 class="text-2xl font-semibold font-serif">Basic Information</h3>
+                    <hr>
+                  </div>
+        
+                  <div class="form-item">
+                    <label class="text-xl font-serif">Full Name</label>
+                    <input type="text" value="" class="w-full appearance-none text-black text-opacity-50 rounded shadow py-1 px-2  mr-2 focus:outline-none focus:shadow-outline focus:border-blue-200" disabled>
+                  </div>
+        
+                  <div class="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4">
+        
+                    <div class="form-item w-full">
+                      <label class="text-xl font-serif">Username</label>
+                      <input type="text" value="" class="w-full appearance-none text-black text-opacity-50 rounded shadow py-1 px-2 mr-2 focus:outline-none focus:shadow-outline focus:border-blue-200 text-opacity-25 " disabled>
+                    </div>
+        
+                    <div class="form-item w-full">
+                      <label class="text-xl font-serif">Email</label>
+                      <input type="text" value="" class="w-full appearance-none text-black text-opacity-50 rounded shadow py-1 px-2 mr-2 focus:outline-none focus:shadow-outline focus:border-blue-200 text-opacity-25 " disabled>
+                    </div>
+                  </div>
+        
+                  <div>
+                    <h3 class="text-2xl font-semibold font-serif">More About Me</h3>
+                    <hr>
+                  </div>
+        
+                  <div class="form-item w-full">
+                    <label class="text-xl font-serif">Biography</label>
+                    <textarea cols="30" rows="10" class="w-full appearance-none text-black text-opacity-50 rounded shadow py-1 px-2 mr-2 focus:outline-none focus:shadow-outline focus:border-blue-200 text-opacity-25 " disabled>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem natus nobis odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, eveniet fugiat? Explicabo assumenda dignissimos quisquam perspiciatis corporis sint commodi cumque rem tempora!</textarea>
+                  </div>
+        
+                  <div>
+                    <h3 class="text-2xl font-semibold font-serif">My Social Media</h3>
+                    <hr>
+                  </div>
+        
+                  <div class="form-item">
+                    <label class="text-xl ">Instagram</label>
+                    <input type="text" value="https://instagram.com/" class="w-full appearance-none text-black text-opacity-50 rounded shadow py-1 px-2 mr-2 focus:outline-none focus:shadow-outline focus:border-blue-200 text-opacity-25 " disabled>
+                  </div>
+                  <div class="form-item">
+                    <label class="text-xl ">Facebook</label>
+                    <input type="text" value="https://facebook.com/" class="w-full appearance-none text-black text-opacity-50 rounded shadow py-1 px-2 mr-2 focus:outline-none focus:shadow-outline focus:border-blue-200 text-opacity-25 " disabled>
+                  </div>
+                  <div class="form-item">
+                    <label class="text-xl ">Twitter</label>
+                    <input type="text" value="https://twitter.com/" class="w-full appearance-none text-black text-opacity-50 rounded shadow py-1 px-2  mr-2 focus:outline-none focus:shadow-outline focus:border-blue-200  " disabled>
+                  </div>
+        
+                </form>
+              </div>
+            </div>
+        
+        
+        </div> <!-- end of first section -->
+    </div>
+  </div>
+  
+  </div>
+</body>
+
+</html>
